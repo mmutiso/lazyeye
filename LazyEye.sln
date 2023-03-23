@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExtractFrames", "ExtractFrames\ExtractFrames.csproj", "{2C59114B-BA41-4AEC-B3EA-B32FE1608D23}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazyEye.Core", "LazyEye.Core\LazyEye.Core.csproj", "{DC937D54-C46A-404F-B2BC-147E720C6823}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LazyPrototype", "LazyPrototype\LazyPrototype.csproj", "{F03B77B9-C226-4E81-B68A-98497C77A1A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyEye.Api", "LazyEye.Api\LazyEye.Api.csproj", "{0DB45AB0-222E-446D-BF72-1DE6BA189541}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C59114B-BA41-4AEC-B3EA-B32FE1608D23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C59114B-BA41-4AEC-B3EA-B32FE1608D23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C59114B-BA41-4AEC-B3EA-B32FE1608D23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C59114B-BA41-4AEC-B3EA-B32FE1608D23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC937D54-C46A-404F-B2BC-147E720C6823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC937D54-C46A-404F-B2BC-147E720C6823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC937D54-C46A-404F-B2BC-147E720C6823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC937D54-C46A-404F-B2BC-147E720C6823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03B77B9-C226-4E81-B68A-98497C77A1A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03B77B9-C226-4E81-B68A-98497C77A1A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03B77B9-C226-4E81-B68A-98497C77A1A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03B77B9-C226-4E81-B68A-98497C77A1A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DB45AB0-222E-446D-BF72-1DE6BA189541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DB45AB0-222E-446D-BF72-1DE6BA189541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DB45AB0-222E-446D-BF72-1DE6BA189541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DB45AB0-222E-446D-BF72-1DE6BA189541}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82523243-CB07-4127-920B-41D732D6D509}
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\TransientFaultHandling.Core.5.1.1209.1\lib\NET4
+	EndGlobalSection
+EndGlobal
